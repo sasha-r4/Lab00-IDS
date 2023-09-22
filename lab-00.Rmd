@@ -47,19 +47,19 @@ p1
 ```
 
 
-*Remove this text (including the stars), and add your answer for Exercise 18 here.*
+This plot visualises the username and favourite number of each person, as well as their respective favourite colours.
 
 ### Exercises 19
 
 Change the text of the plot title and axis labels.
 
 ```{r labelled-bar-plot}
-p1 + labs(x = "Insert text here", 
-          y = "Insert text here",
-          title = "Insert text here")
+p1 + labs(x = "Username", 
+          y = "Favourite Number",
+          title = "Favourite Number and Colour of Group 11 Members")
 ```
 
-*Remove this text (including the stars), and add your answer for Exercise 19 here.*
+The command labs() modifies the axis/legend/plot labels.
 
 ### Exercise 20
 
@@ -69,4 +69,4 @@ p2 <- ggplot(team_data, aes(x = hobby)) +
 p2
 ```
 
-*Remove this text (including the stars) and add your answer for Exercise 20 here.*
+It would be better to compile the data into a table with a column for each person and a column for their respective hobby, so that it is easier to see which hobby corresponds to which person.
